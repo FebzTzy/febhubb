@@ -11377,7 +11377,6 @@ task.spawn(function()
         if not char then SAV3_ClearLaser() end
     end
 end)
-})
 local v2685 = S_Page:CreateSection("Auto Drop Pallet", "fence")
 PalletCard = v2685
 local v2686 = PalletCard:AddToggle("Auto Drop Pallet", false, function(a345)
